@@ -14,6 +14,6 @@
 
 
 def speak_to_grandma(words)
-  if words.chars.all? { |char| chars == char.upcase}
+  if words.chars.all? { |char| char == char.upcase}
   end
 end
