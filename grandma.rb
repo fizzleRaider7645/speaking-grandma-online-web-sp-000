@@ -16,6 +16,7 @@
 def speak_to_grandma(words)
   if words.chars.all? { |char| char == char.upcase}
     puts "NO, NOT SINCE 1938!"
-    elsif 
+    elsif words == 'I LOVE YOU GRANDMA!'
+      puts
   end
 end
