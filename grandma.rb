@@ -15,10 +15,11 @@
 
 
 def speak_to_grandma(words)
-  if words.chars.all? { |char| char == char.upcase}
+  words == 'I LOVE YOU GRANDMA!'
+  if 'I LOVE YOU TOO PUMPKIN!'
     return "NO, NOT SINCE 1938!"
-    elsif words == 'I LOVE YOU GRANDMA!'
-      return 'I LOVE YOU TOO PUMPKIN!'
+    elsif words.chars.all? { |char| char == char.upcase}
+      return "NO, NOT SINCE 1938!"
     else
       return "HUH?! SPEAK UP, SONNY!"
   end
